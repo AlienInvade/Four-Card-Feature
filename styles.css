@@ -127,3 +127,34 @@ footer {
     color: hsl(228, 45%, 44%);
 }
 
+@media (min-width: 319px) and (max-width: 480px) {
+
+    body {
+        margin-top: 20em;
+        height: 100vh;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    article {
+        margin: auto;
+        width: 85%;
+        font-size: 0.84rem;
+    }
+
+    .left, .right {
+        margin-top: 0;
+    }
+
+
+
+    footer {
+        transform: translate(0, 270px);
+    }
+
+}
